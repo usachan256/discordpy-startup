@@ -17,5 +17,7 @@ async def on_command_error(ctx, error):
 async def ping(ctx):
     await ctx.send('pong')
 
+for member in guild.members:
+await member.send('hello')
 
 bot.run(token)
